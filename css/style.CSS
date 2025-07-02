@@ -1,0 +1,20 @@
+#superior {
+background-color: orchid;
+text-align: center;
+border-radius: 50px;
+width: 600px;
+}
+.inferior{
+    background-color: hotpink;
+    text-align: center;
+    border-radius: 40px;
+    width: 600px;
+}
+.botao{
+    margin-top: 15px;
+    border: solid gray;
+    border-radius: 10px;
+    background-color: pink;
+    color: white;
+}
+ 
