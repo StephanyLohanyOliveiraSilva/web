@@ -1,7 +1,10 @@
-function adicionarElemento(){
-    var id =  document.getElementById("conteudo")
-    var elementoNovo = document.createElement("input")
-    elementoNovo.value = "Valor novo"
-    id.appendChild(elementoNovo)
-    window.alert('Você criou um negocio ai ;D')
+function mudarAparencia(){
+var divs = document.querySelectorAll("div")
+divs.forEach(element => {
+    element.style.backgroundColor = "Red";
+    console.log("Alterou.");
+
+});
+
 }
+    
